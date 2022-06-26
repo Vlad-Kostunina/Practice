@@ -1,0 +1,158 @@
+footer {
+	height: 100%;
+	width: 90%;
+	background-color: #316099;
+	border-radius: 0px 200px 0px 0px;
+
+}
+
+.talk-button {
+	float: left;
+	height: 50px;
+	width: 200px;
+	margin: 0 0 0 600px;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	background: #5A98D0;
+	border-radius: 10px;
+	border: none;
+}
+
+.text.footer-text {
+	opacity: 0.9;
+	color: #FFFFFF;
+}
+
+.footer-text.logo-title {
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+.footer-text.title {
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.footer-text.copyright {
+	padding: 10%;
+	opacity: 0.4;
+}
+
+.title3.workteam {
+	width: 350px;
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.footer-container1 {
+
+	width: 400px;
+	padding: 10%;
+	display: inline-block;
+}
+
+
+.white-line {
+	margin: 5% 0;
+	height: 1px;
+	width: 80%;
+	background-color: #FFFFFF;
+}
+
+.text.workteam {
+	padding-top: 50px;
+	width: 500px;
+}
+
+
+.footer-container2 {
+	padding: 0 10%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows:  repeat(5, 1fr);
+	grid-column-gap: 10%;
+	grid-row-gap: 4%;
+}
+
+.footer-text.logo-title {
+	grid-column-start: 1;
+}
+
+.footer-text.contacts {
+	grid-column-start: 1;
+}
+
+.footer-text.title.about {
+	padding-bottom: 5px;
+	grid-row-start: 1;
+	grid-column-start: 2;
+
+}
+
+.footer-text.about1 {
+	grid-row-start: 2;
+	grid-column-start: 2;
+}
+
+.footer-text.about2 {
+	grid-row-start: 3;
+	grid-column-start: 2;
+}
+
+.footer-text.about3 {
+	grid-row-start: 4;
+	grid-column-start: 2;
+}
+
+.footer-text.about4 {
+	grid-row-start: 5;
+	grid-column-start: 2;
+}
+
+
+.footer-text.title.follow {
+	padding-bottom: 5px;
+	padding-top: 10px;
+	grid-row-start: 1;
+	grid-column-start: 3;
+
+}
+
+.footer-text.follow1 {
+	grid-row-start: 2;
+	grid-column-start: 3;
+}
+
+.footer-text.follow2 {
+	grid-row-start: 3;
+	grid-column-start: 3;
+}
+
+.footer-text.follow3 {
+	grid-row-start: 4;
+	grid-column-start: 3;
+}
+
+.footer-text.follow4 {
+	grid-row-start: 5;
+	grid-column-start: 3;
+}
+
+.talk-button:hover {
+	transform: scale(1.2);
+	transition: 1s;
+	background-color: #1E90FF; 
+}	
+
+.text.footer-text:hover {
+	text-decoration: none;
+}
+
